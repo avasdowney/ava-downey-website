@@ -19,7 +19,8 @@
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "noUnusedLocals": true,
-    "noUnusedParameters": true
+    "noUnusedParameters": true,
+    "types": ["jest", "@testing-library/jest-dom", "node"]
   },
   "include": ["src"]
 }

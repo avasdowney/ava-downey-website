@@ -8,7 +8,7 @@ import GitHub from '../../images/GitHub-Mark-Light-64px.png';
 
 function Navbar(): ReactElement {
   const handleNavClick = (): void => {
-    window.scrollTo({ top: 0, behavior: 'instant' });
+    window.scrollTo({ top: 0, behavior: 'auto' });
   };
 
   return (
