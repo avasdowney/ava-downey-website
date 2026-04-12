@@ -145,7 +145,7 @@ const projects: Project[] = [
       'A personal website and portfolio built with React and styled-components. This project showcases my skills, projects, and experiences in a visually appealing way.',
     tags: ['TypeScript', 'React', 'GitHub Actions'],
     links: [
-      { text: 'View Website', url: 'https://avadowney.com' },
+      { text: 'View Website', url: 'https://avasdowney.github.io/' },
       { text: 'View Code', url: 'https://github.com/avasdowney/avadowney.com' },
     ],
   },

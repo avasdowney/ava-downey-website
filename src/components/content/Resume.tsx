@@ -21,13 +21,26 @@ function Resume(): ReactElement {
         <div className="group">
           <h3>Travelers</h3>
           <div className="role">
-            <div className="title">Data Engineer — BI&amp;A LDP</div>
-            <div className="role-dates">Oct. 2024 - Present</div>
+            <div className="title">Data Engineer I — BI&amp;A LDP</div>
+            <div className="role-dates">Apr. 2026 - Present</div>
             <div className="desc">
-              I am working on several Gen AI RAG applications for insurance agents and underwriters within Bond and
-              Specialty Insurance. I am also a part of the BI&amp;A LDP at Travelers, allowing me to strengthen my
-              leadership skills through opportunities such as my role as a co-lead of Emerging Talent Program
-              Networking Committee.
+              I am currently working on an agentic AI application to improve underwriter efficiency by over 20%
+              within Bond and Specialty Insurance. The utilization of Gen AI tools such as Claude Code and GitHub
+              Copilot has been a crucial part of my development process, allowing me to go from ideation to pilot
+              within 2 months while minimizing tech debt.
+            </div>
+          </div>
+          <div className="role">
+            <div className="title">Data Engineer, Senior Consultant — BI&amp;A LDP</div>
+            <div className="role-dates">Oct. 2024 - Apr. 2026</div>
+            <div className="desc">
+              I worked on several Gen AI RAG applications for insurance agents and underwriters within Bond and
+              Specialty Insurance. The initial application I worked on for insurance agents was the first external
+              Gen AI application at Travelers. I later transitioned into leading the development of another
+              RAG application, progressing the app from the pilot phase to a full rollout to the entirety of Bond
+              and Specialty Insurance underwriters saving over 10,000 hours of underwriter time annually. I also
+              held the role as co-lead of the Emerging Talent Program Networking Committee where I led other program
+              participants in hosting monthly events for over 600 attendees.
             </div>
           </div>
           <div className="role">
