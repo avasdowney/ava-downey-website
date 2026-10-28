@@ -149,14 +149,14 @@ const projects: Project[] = [
       { text: 'View Code', url: 'https://github.com/avasdowney/avadowney.com' },
     ],
   },
-  {
-    id: 4,
-    title: 'Dad Joke Web Scraper',
-    description:
-      'A project designed to help me learn the basics of Clojure. This web scraper retrieves the dad jokes off of the hot page of r/dadjokes.',
-    tags: ['Clojure', 'GitHub Actions'],
-    links: [{ text: 'View Code', url: 'https://github.com/avasdowney/dad-joke-scraper' }],
-  },
+  // {
+  //   id: 4,
+  //   title: 'Dad Joke Web Scraper',
+  //   description:
+  //     'A project designed to help me learn the basics of Clojure. This web scraper retrieves the dad jokes off of the hot page of r/dadjokes.',
+  //   tags: ['Clojure', 'GitHub Actions'],
+  //   links: [{ text: 'View Code', url: 'https://github.com/avasdowney/dad-joke-scraper' }],
+  // },
 ];
 
 function Projects(): ReactElement {
