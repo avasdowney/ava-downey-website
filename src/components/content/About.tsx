@@ -174,7 +174,7 @@ function About(): ReactElement {
       <section ref={bioRef} style={bioSectionStyle}>
         <div style={bioContainerStyle}>
           <p>
-            As a Data Engineer at Travelers Insurance, I have built several innovative Generative AI solutions from end
+            TEST As a Data Engineer at Travelers Insurance, I have built several innovative Generative AI solutions from end
             to end, including Travelers' first external Gen AI application. My dedication to innovation has earned me
             first place in a company-wide competition for an agentic reasoning model where I was able to work with
             cross-functional teams to improve our business processes. I've also been a champion for internal Gen AI

@@ -29,7 +29,7 @@ function Resume(): ReactElement {
               points, and utilizing Gen AI tools such as Claude Code, my team has deployed 3 unique agentic applications
               from idea to production within the last year. The tools range from entity extraction to submission-backed
               guidances and are all connected through an event-driven architecture. This has resulted in a cumulative
-              1,000,000 hours of underwriter time saved annually, enabling underwriters to focus on more strategic tasks.
+              18,000 hours of underwriter time saved annually, enabling underwriters to focus on more strategic tasks.
             </div>
           </div>
           <div className="role">
