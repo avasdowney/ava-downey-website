@@ -3,24 +3,39 @@ import styled from 'styled-components';
 
 export const Nav = styled.nav`
   background: #101010;
-  height: 10vh;
+  height: 60px;
   display: flex;
   justify-content: space-between;
-  padding: calc(0.2rem / 2);
-  z-index: 12;
+  align-items: center;
+  padding: 0 1rem;
   position: sticky;
   top: 0;
+  z-index: 12;
+
+  @media screen and (max-width: 480px) {
+    padding: 0 0.5rem;
+  }
 `;
 
 export const NavLink = styled(Link)`
   color: #808080;
+  text-decoration: none;
   display: flex;
   align-items: center;
-  text-decoration: none;
-  padding: 0 1vw;
-  height: 100%;
-  cursor: pointer;
+  padding: 0 0.5rem;
+  font-size: 0.95rem;
+  white-space: nowrap;
+
+  @media screen and (max-width: 480px) {
+    padding: 0 0.3rem;
+    font-size: 0.82rem;
+  }
+
   &.active {
+    color: #ffffff;
+  }
+
+  &:hover {
     color: #ffffff;
   }
 `;
@@ -28,30 +43,41 @@ export const NavLink = styled(Link)`
 export const NavMenu = styled.div`
   display: flex;
   align-items: center;
-  margin-right: -1vw;
+  gap: 0.25rem;
+  /* Removed negative margin that caused collision */
 `;
 
-export const NavBtn = styled.nav`
+export const NavBtn = styled.div`
   display: flex;
   align-items: center;
-  margin-right: 1vw;
-  margin-left: 1vw;
+  gap: 0.5rem;
+
+  @media screen and (max-width: 480px) {
+    gap: 0.25rem;
+  }
 `;
 
 export const NavBtnLink = styled(Link)`
-  border-radius: 2px;
+  border-radius: 4px;
   background: #fff;
-  padding: 0.5vw 0.5vw;
-  color: #808080;
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #101010;
   outline: none;
   border: none;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
   text-decoration: none;
-  margin-left: 1vw;
+  white-space: nowrap;
+  transition: all 0.2s ease-in-out;
+
+  @media screen and (max-width: 480px) {
+    padding: 5px 8px;
+    font-size: 0.75rem;
+  }
+
   &:hover {
-    transition: all 0.2s ease-in-out;
     background: #202020b3;
-    color: #959595ff;
+    color: #ffffff;
   }
 `;
